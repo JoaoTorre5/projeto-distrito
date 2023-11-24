@@ -124,17 +124,21 @@ body {
 
 /* inicio da estilização da Area de seções*/
 /*estilização comuns*/
-.secao-container {
+.servicos-container {
     height: 95vh;
+    max-height: 750px;
     display: block;
-    flex-wrap: wrap;
     justify-content: space-around;
     min-width: max-content;
-    padding: 20px 10px;
+    box-sizing: border-box;
 }
-.div-categorias {
+
+.div-categorias{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .secao-content {
     width: 330px;
     margin-bottom: 50px;
