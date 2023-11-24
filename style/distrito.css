@@ -133,9 +133,7 @@ body {
     padding: 20px 10px;
 }
 .div-categorias {
-    background-color: aqua;
-    align-items: center;
-    margin: auto;
+    justify-content: space-around;
 }
 .secao-content {
     width: 330px;
