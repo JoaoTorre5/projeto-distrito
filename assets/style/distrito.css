@@ -1,0 +1,238 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bc-subcolor:  rgb(253, 237, 8);
+    --font-family-01:  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    max-width: 100vw;
+    min-width: 360px;
+    background: url(../imagem/vig-seg-eletro-lgpd.jpg) repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* inicio da estilização do cabeçalho*/
+.cabecalho {
+    max-width: 80vw;
+    min-height: 220px;
+    height: 500px;
+    margin: 0 auto 10px;
+    word-spacing: 5px;
+}
+
+/* estilização da barra de navegação*/
+.nav-container {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--bc-subcolor) +2px 1px   3px;
+}
+.a-nav-container {
+    text-align: center;
+    width: 100px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+   
+}
+.a-nav-container:hover {
+    background-color: var(--bc-subcolor);
+    color: black;
+    font-weight: 600;
+}
+.div-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 20px;
+    align-items: center;
+}
+#img-logo {
+    background-color: rgb(14, 13, 13);
+    border-radius: 50px;
+    border: solid 2px white;
+}
+.span-logo {
+    font-size: 22px;
+    letter-spacing: 5x;
+    text-shadow: black -1px 3px 2px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* inicio da estilização da div apresentação*/
+.apresentacao {
+    display: block;
+    width: 550px;
+    min-width: 330px;
+    height: max-content;
+    margin: 25px 20px;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+.h2-apres {
+    font-size: 45px;
+    color: black;
+    text-shadow: var(--bc-subcolor) 0px 1px 1px;
+}
+.p-apres {
+    padding: 15px 20px 15px 0px;
+    border-radius: 10px;
+    font-family: var(--font-family-01);
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    text-shadow: black 0px 2px 1px;
+}
+.a-apres {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px 5px;
+    font-family: var(--font-family-01);
+    font-size: 14px;
+    color: var(--bc-subcolor);
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: solid var(--bc-subcolor) 1px;
+    
+}
+.a-apres:hover {
+    background-color: var(--bc-subcolor);
+    color: black;
+    border: solid black 1px;
+}
+
+
+/* inicio da estilização da Area de seções*/
+/*estilização comuns*/
+.secao-container {
+    height: 95vh;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-width: max-content;
+    padding: 20px 10px;
+}
+.secao-content {
+    width: 330px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.h1-secao {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+.img-icon {
+    width: 140px;
+    width: 142px;
+    border-radius: 110px;
+    margin: 5px;
+}
+.h2-secao {
+    font-size: 32px;
+    padding: 5px;
+}
+.p-secao, .p-produto {
+    min-height: 250px;
+    margin-bottom: 20px;
+    padding: 30px 10px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.a-secao {
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: solid rgb(0, 0, 0) 1px;
+}
+.a-secao {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 1px;
+    color: white;
+    background-color: rgb(22, 105, 57);
+}
+.a-secao:hover {
+    background-color: rgb(29, 230, 113);
+    color: black;
+}
+
+
+/*fim da estilizações comun de seções*/
+
+/*seção serviços*/
+.servicos-container {
+    background-color: white;
+}
+.h1-serv {
+    text-shadow: var(--bc-subcolor) 1px 1px;
+}
+.div-categorias {
+    display: flex;
+}
+
+.img-icon {
+    box-shadow: rgba(0, 0, 0, 0.897) 8px 4px 10px;
+}
+
+.p-serv {
+    box-shadow: 15px 1px 10px rgba(22, 104, 58, 0.603);
+}
+.p-serv:hover {
+    text-align: center;
+    background-color: rgba(20, 128, 92, 0.596);
+    color: black;
+}
+
+
+/*seção catedoria*/
+.h1-produto {
+    color: rgb(238, 231, 231);
+    text-shadow: rgb(20, 190, 79) 2px 1px 15px;
+}
+.h2-produto {
+    height: 60px;
+    font-size: 32px;
+    padding: 5px;
+    color: white;
+    text-shadow: rgb(23, 78, 43) 2px 2px 1px;
+}
+.p-produto {
+    height: 250px;
+    margin-top: 10px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.582);
+    box-shadow: 5px 2px 10px rgba(22, 104, 58, 0.603);
+}
+.img-produto {
+    box-shadow: 5px 2px 10px rgba(22, 104, 58, 0.603);
+}
+
+/*atualizando dia 23/11/2023 */
