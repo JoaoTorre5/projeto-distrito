@@ -132,6 +132,11 @@ body {
     min-width: max-content;
     padding: 20px 10px;
 }
+.div-categorias {
+    background-color: aqua;
+    align-items: center;
+    margin: auto;
+}
 .secao-content {
     width: 330px;
     margin-bottom: 50px;
